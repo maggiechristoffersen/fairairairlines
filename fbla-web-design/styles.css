@@ -1,0 +1,170 @@
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #bac5cc;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+.topnav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #50bfd8;
+  color: #50bfd8
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #50bfd8;
+}
+
+.topnav a:hover {
+  background-color: #50bfd8;
+  color: #fff;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: #50bfd8;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.sm-logo {
+  height: auto;
+  width: 20%;
+}
+
+.sm-text {
+  color: #50bfd8;
+}
+
+input[type=button] {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  background-color: white;
+  color: #50bfd8;
+}
+
+.we-need {
+  display: flex;
+  flex-direction: row;
+}
+
+.job-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=submit] {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  background-color: white;
+  color: #50bfd8;
+}
+
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #50bfd8;
+   text-align: center;
+}
